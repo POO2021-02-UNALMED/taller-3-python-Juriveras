@@ -44,6 +44,10 @@ class TV:
         return self._canal
 
     @staticmethod
+    def setNumTV(numTV):
+        TV._numTV = numTV
+
+    @staticmethod
     def getNumTV():
         return TV._numTV
 
